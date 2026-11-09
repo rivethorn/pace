@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/banner.png"/>
+    <!-- <img src="assets/banner.png"/> -->
 	<h1>pace</h1>
     <div style="text-align: center; font-style: italic; margin-top: 0.5rem;">
 		A small terminal progress-bar library written in [Odin](https://odin-lang.org).
@@ -14,7 +14,8 @@
 Add this directory as a collection in your Odin project:
 
 ```sh
-mimir add-col <path>
+mimir add-col libs
+git clone --depth=1 https://github.com/rivethorn/pace.git libs/pace
 ```
 
 Use the import path configured for that collection and refer to the package as
